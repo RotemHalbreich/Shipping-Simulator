@@ -8,7 +8,7 @@
 ------------------------------------------------------|----------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 ## :question: *About the project:*
-### *In this project we've created a system which simulates shipment services. This system keeps track on packages shipped from around the world, from the moment of their diparture to the country and until they arrive to the logistic center of the shipment company.*
+### *In this project we've created a system which simulates shipment services. This system keeps track on packages shipped from around the world, from the moment of their departure to the country and until they arrive to the logistic center of the shipment company.*
 
 
 *__SHIPMENT SIMULATOR:__  Will simulate scanning of packages before they're sent to the country, and will notify their departure via message. When a package is sent, it will be stored in the Redis database service as cache. To simulate arrival of the package, the Shipment Simulator will generate a QRCode for each package, which holds all the package's information and store it in Firebase cloud storage.*
